@@ -1,47 +1,27 @@
+  
 package repository;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import model.Partida;
+
 public class PartidaRepository {
-	 int Id;
-	 int MandanteId;
-	 int GolsMandante;
-	 int VisitanteId;
-	 int GolsVisitante;
-	 int CampeonatoId;		
+public List<Partida> Lista = new ArrayList<Partida>();
 	
-	public int getId() {
-		return Id;
+	public Partida GetPartida(int indice) {
+		return new Partida();
 	}
-	public void setId(int id) {
-		Id = id;
+	
+	public List<Partida> GetAllPartida(int indice) {
+		return new ArrayList<Partida>();
 	}
-	public int getMandanteId() {
-		return MandanteId;
+	
+	public void SetPartida(Partida partida) {
+		
 	}
-	public void setMandanteId(int mandanteId) {
-		MandanteId = mandanteId;
-	}
-	public int getGolsMandante() {
-		return GolsMandante;
-	}
-	public void setGolsMandante(int golsMandante) {
-		GolsMandante = golsMandante;
-	}
-	public int getVisitanteId() {
-		return VisitanteId;
-	}
-	public void setVisitanteId(int visitanteId) {
-		VisitanteId = visitanteId;
-	}
-	public int getGolsVisitante() {
-		return GolsVisitante;
-	}
-	public void setGolsVisitante(int golsVisitante) {
-		GolsVisitante = golsVisitante;
-	}
-	public int getCampeonatoId() {
-		return CampeonatoId;
-	}
-	public void setCampeonatoId(int campeonatoId) {
-		CampeonatoId = campeonatoId;
+
+	public void SetCampeonato(Partida partida) {
+		
 	}
 }

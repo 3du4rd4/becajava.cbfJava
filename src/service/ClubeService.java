@@ -7,18 +7,17 @@ public class ClubeService {
 
 	public Clube GetClube(int indice) {
 		ClubeRepository repository = new ClubeRepository();
-		// Clube result = repository.GetClube(indice); 
-		// return result;
+		 Clube result = repository.GetClube(indice); 
+		 return result;
 	}
 
 	public void SetClube(Clube clube) {
 		ClubeRepository repository = new ClubeRepository();
 
-		// repository.SetClube(clube);
+		 repository.SetClube(clube);
 	}
 }
 
-}
 
 
 

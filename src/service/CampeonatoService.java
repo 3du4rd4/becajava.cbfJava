@@ -8,13 +8,13 @@ public class CampeonatoService {
 	
 	public Campeonato GetCampeonato(int indice) {
 		CampeonatoRepository repository = new CampeonatoRepository();
-		// Campeonato result = repository.GetCampeonato(indice); 
-		// return result;
+		Campeonato result = repository.GetCampeonato(indice); 
+		 return result;
 	}
 
 	public void SetCampeonato(Campeonato campeonato) {
 		CampeonatoRepository repository = new CampeonatoRepository();
 
-		// repository.SetCampeonato(campeonato);
+		repository.SetCampeonato(campeonato);
 	}
 }
